@@ -31,6 +31,8 @@
         <button
           id="menu"
           class="lg:hidden focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 text-neutral-900 hover:text-neutral-600 transition-colors"
+          aria-expanded="false"
+          aria-label="Open Menu"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +52,7 @@
 
         <!---Nav-items----------->
         <div
-          role="menubar"
+          role="menuBar"
           class="hidden flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center text-lg p-6 items-center lg:flex lg:flex-row lg:static lg:shadow-none lg:w-full lg:justify-between"
         >
           <a
@@ -88,6 +90,6 @@
       </div>
     </nav>
 
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
