@@ -54,7 +54,7 @@
         <!---Nav-items------------->
         <div
           role="menubar"
-          class="hidden flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center text-lg p-6 items-center lg:flex lg:flex-row lg:static lg:shadow-none lg:w-full lg:justify-between"
+          class="hidden flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center text-lg p-6 items-center lg:flex lg:flex-row lg:static lg:shadow-none lg:w-full lg:justify-between z-40"
         >
           <!--home-->
           <a
@@ -103,12 +103,14 @@
       ></div>
 
       <div class="container mx-auto grid grid-rows-1 place-items-end px-2">
+        <!--Couch-img-->
         <img
           src="./assets/couch.png"
           class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto"
           alt="Couch"
         />
 
+        <!--app-img-->
         <img
           src="./assets/app.svg"
           class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 sm:w-52 md:w-64"
@@ -116,6 +118,34 @@
         />
       </div>
     </header>
+
+    <!--======== Main =====================-->
+    <main
+      class="grid gap-12 sm:gap-16 md:gap-24 lg:gap-32 px-8 overflow-hidden"
+    >
+      <a
+        href="#"
+        class="py-2 px-6 bg-amber-400 dark:text-neutral-900 mx-auto my-12 flex gap-2 shadow-xl hover:shadow-none transition-shadow focus:outline-none focus-visible:ring-2 ring-neutral-900 rounded-md ring-offset-4 ring-offset-white dark:ring-amber-400 dark:ring-offset-neutral-800"
+      >
+        <!--Download-SVG-->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+          />
+        </svg>
+
+        <span>Download the App</span>
+      </a>
+    </main>
 
     <script type="module" src="./main.js"></script>
   </body>
