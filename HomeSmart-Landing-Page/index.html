@@ -11,12 +11,13 @@
   <body
     class="max-w-[2000px] mx-auto text-neutral-900 dark:text-neutral-200 bg-white dark:bg-neutral-800"
   >
+    <!--======== NavBar ====================-->
     <nav class="mx-auto p-4 bg-amber-400">
       <div class="container mx-auto flex items-center justify-between">
-        <!---Logo----------->
+        <!---Logo------------->
         <a
           href="/"
-          class="focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-9 z-50 hover:opacity-75 transition-opacity"
+          class="focus:outline-none focus-visible:ring-2 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-9 z-50 hover:opacity-75 transition-opacity"
           aria-label="Go to homepage"
         >
           <img
@@ -27,10 +28,10 @@
           />
         </a>
 
-        <!---Menu----------->
+        <!---Menu------------->
         <button
           id="menu"
-          class="lg:hidden focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 text-neutral-900 hover:text-neutral-600 transition-colors"
+          class="lg:hidden focus:outline-none focus-visible:ring-2 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 text-neutral-900 hover:text-neutral-600 transition-colors"
           aria-expanded="false"
           aria-label="Open Menu"
         >
@@ -50,45 +51,71 @@
           </svg>
         </button>
 
-        <!---Nav-items----------->
+        <!---Nav-items------------->
         <div
-          role="menuBar"
+          role="menubar"
           class="hidden flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center text-lg p-6 items-center lg:flex lg:flex-row lg:static lg:shadow-none lg:w-full lg:justify-between"
         >
+          <!--home-->
           <a
             role="menuitem"
             href="/"
-            class="py-1 px-6 dark:text-neutral-900 focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 hover:text-neutral-600 transition-colors"
+            class="py-1 px-6 dark:text-neutral-900 focus:outline-none focus-visible:ring-2 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 hover:text-neutral-600 transition-colors"
           >
             Home
           </a>
 
+          <!--Contact-->
           <a
             role="menuitem"
-            href="/"
-            class="py-1 px-6 dark:text-neutral-900 focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 hover:text-neutral-600 transition-colors lg:mr-auto"
+            href="#"
+            class="py-1 px-6 dark:text-neutral-900 focus:outline-none focus-visible:ring-2 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 hover:text-neutral-600 transition-colors lg:mr-auto"
           >
             Contact
           </a>
 
+          <!--Login-->
           <a
             role="menuitem"
-            href="/"
-            class="py-1 px-6 dark:text-neutral-900 focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 hover:text-neutral-600 transition-colors"
+            href="#"
+            class="py-1 px-6 dark:text-neutral-900 focus:outline-none focus-visible:ring-2 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 hover:text-neutral-600 transition-colors"
           >
             Login
           </a>
 
+          <!--SignUp-->
           <a
             role="menuitem"
-            href="/"
-            class="py-2 px-6 bg-teal-900 text-white shadow-xl hover:shadow-none transition-shadow focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-md ring-offset-4 ring-offset-amber-400"
+            href="#"
+            class="py-2 px-6 bg-teal-900 text-white shadow-xl hover:shadow-none transition-shadow focus:outline-none focus-visible:ring-2 ring-neutral-900 rounded-md ring-offset-4 ring-offset-amber-400"
           >
             Sign Up
           </a>
         </div>
       </div>
     </nav>
+
+    <!--======== Header ====================-->
+    <header class="relative pt-16 md:pt-24 lg:pt-48">
+      <!--BackgroundColor-->
+      <div
+        class="absolute inset-0 bottom-8 md:bottom-24 xl:bottom-32 -z-10 bg-gradient-to-b from-amber-400 to-amber-600"
+      ></div>
+
+      <div class="container mx-auto grid grid-rows-1 place-items-end px-2">
+        <img
+          src="./assets/couch.png"
+          class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto"
+          alt="Couch"
+        />
+
+        <img
+          src="./assets/app.svg"
+          class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 sm:w-52 md:w-64"
+          alt="app"
+        />
+      </div>
+    </header>
 
     <script type="module" src="./main.js"></script>
   </body>
