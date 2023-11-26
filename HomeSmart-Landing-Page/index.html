@@ -95,7 +95,7 @@
       </div>
     </nav>
 
-    <!--======== Header ====================-->
+    <!--======== Header =======================-->
     <header class="relative pt-16 md:pt-24 lg:pt-48">
       <!--BackgroundColor-->
       <div
@@ -119,7 +119,7 @@
       </div>
     </header>
 
-    <!--======== Main =====================-->
+    <!--======== Main =======================-->
     <main
       class="grid gap-12 sm:gap-16 md:gap-24 lg:gap-32 px-8 overflow-hidden"
     >
@@ -333,7 +333,7 @@
               href="#"
               class="py-2 px-6 bg-amber-400 dark:text-neutral-900 flex gap-2 shadow-xl hover:shadow-none transition-shadow focus:outline-none focus-visible:ring-2 ring-neutral-900 rounded-md ring-offset-4 ring-offset-white dark:ring-amber-400 dark:ring-offset-neutral-800"
             >
-              Download the App
+              Sign Up
             </a>
           </div>
 
@@ -351,6 +351,52 @@
         ></div>
       </section>
     </main>
+
+    <!--======== Contact =======================-->
+    <section
+      aria-labelledby="Contact"
+      class="container mx-auto px-8 overflow-hidden"
+    >
+      <div class="flex flex-wrap justify-center gap-12 md:gap-6 lg:gap-20">
+        <div class="md:flex-1 md:max-w-sm relative">
+          <img src="./assets/lamp.png" alt="Lamp" class="mx-auto" />
+
+          <!--Download-Btn-->
+          <a
+            href="#"
+            class="py-2 px-6 bg-amber-400 dark:text-neutral-900 w-max mx-auto mt-12 md:mb-12 flex gap-2 shadow-xl hover:shadow-none transition-shadow focus:outline-none focus-visible:ring-2 ring-neutral-900 rounded-md ring-offset-4 ring-offset-white dark:ring-amber-400 dark:ring-offset-neutral-800"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+              />
+            </svg>
+
+            <span>Download the App</span>
+          </a>
+
+          <img
+            src="./assets/app.svg"
+            alt="app"
+            width="240"
+            class="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs"
+          />
+        </div>
+
+        <form
+          class="relative border-8 border-neutral-900 p-6 rounded-lg grid gap-8 md:flex-1 md:max-w-lg my-4 md:my-12 lg:my-16 bg-white dark:bg-neutral-800 w-full"
+        ></form>
+      </div>
+    </section>
 
     <script type="module" src="./main.js"></script>
   </body>
