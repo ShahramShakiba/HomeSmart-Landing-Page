@@ -1,4 +1,4 @@
-# <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/></a> &nbsp; Home Smart Landing Page
+# Home Smart Landing Page  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/></a> 
 **_Description_** :<br/>
   > This is a _Practice-Project_ to create a Landing Page to practice `  Tailwindcss  `.  <br/>
   
