@@ -1,5 +1,3 @@
-import './style.css';
-
 const navBtn = document.querySelector('#menu'),
   menuBar = document.querySelector('[role="menubar"]');
 
@@ -11,7 +9,7 @@ navBtn.addEventListener('click', () => {
   //if it's true make it false and vice versa
   navBtn.setAttribute('aria-expanded', !isExpanded);
 
-  //switch between hidden and flex 
+  //switch between hidden and flex
   menuBar.classList.toggle('hidden');
   menuBar.classList.toggle('flex');
 });

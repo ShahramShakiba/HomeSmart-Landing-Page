@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="assets/ico.png" />
     <meta name="author" content="Shahram Shakiba" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./css/output.css" rel="stylesheet">
+    <link href="./css/output.css" rel="stylesheet" />
 
     <title>Home Smart Landing Page</title>
   </head>
@@ -69,7 +69,7 @@
           <!--Contact-->
           <a
             role="menuitem"
-            href="#"
+            href="#contact"
             class="py-1 px-6 dark:text-neutral-900 focus:outline-none focus-visible:ring-2 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 hover:text-neutral-600 transition-colors lg:mr-auto"
           >
             Contact
@@ -87,7 +87,7 @@
           <!--SignUp-->
           <a
             role="menuitem"
-            href="#"
+            href="#signup"
             class="py-2 px-6 bg-teal-900 text-white shadow-xl hover:shadow-none transition-shadow focus:outline-none focus-visible:ring-2 ring-neutral-900 rounded-md ring-offset-4 ring-offset-amber-400"
           >
             Sign Up
@@ -97,7 +97,7 @@
     </nav>
 
     <!--======== Header =======================-->
-    <header class="relative pt-16 md:pt-24 lg:pt-48">
+    <header id="home" class="relative pt-16 md:pt-24 lg:pt-48">
       <!--BackgroundColor-->
       <div
         class="absolute inset-0 bottom-8 md:bottom-24 xl:bottom-32 -z-10 bg-gradient-to-b from-amber-400 to-amber-600"
@@ -144,7 +144,7 @@
           />
         </svg>
 
-        <span class='font-bold'>Download the App</span>
+        <span class="font-bold">Download the App</span>
       </a>
 
       <!-----Card-section---------------------->
@@ -314,7 +314,7 @@
       </section>
 
       <!------SignUp-section------------------------>
-      <section aria-labelledby="home" class="relative">
+      <section id="signup" aria-labelledby="home" class="relative">
         <div class="flex flex-wrap-reverse gap-8 justify-center">
           <div
             class="flex flex-wrap gap-6 flex-col items-start lg:justify-center"
@@ -355,6 +355,7 @@
 
     <!--======== Contact ===========================-->
     <section
+      id="contact"
       aria-labelledby="Contact"
       class="container mx-auto px-8 overflow-hidden"
     >
@@ -382,7 +383,7 @@
               />
             </svg>
 
-            <span class='font-bold'>Download the App</span>
+            <span class="font-bold">Download the App</span>
           </a>
 
           <!--app-image-->
@@ -470,6 +471,6 @@
       </div>
     </section>
 
-    <script type="module" src="js/main.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
