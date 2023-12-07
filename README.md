@@ -1,5 +1,7 @@
 # Home Smart Landing Page  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/></a> 
-**<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> _Description_** :<br/>
+
+<!----------------------------------------- Description ---------------------------------------->
+**<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" />&nbsp; _Description_** :<br/>
   > This is a _Practice-Project_ to create a Landing Page to practice `  Tailwindcss  `.  <br/>
   
 The main emphasis of this project is on designing a ` clean `  and  ` uncomplicated layout `  while ensuring the site is  ` responsive ` to different screen sizes. <br/>
@@ -9,18 +11,24 @@ The main emphasis of this project is on designing a ` clean `  and  ` uncomplica
   
 - A responsive design ensures that the website is accessible on a variety of devices, including desktops, laptops, tablets, and smartphones.<br/>
   This makes it easier for users to access the site from wherever they are, increasing the reach of the site.
-   <br/><br/>
+   <br/><br/><br/>
 
-###  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Magnifying%20Glass%20Tilted%20Right.webp" alt="Magnifying Glass Tilted Right" width="45" /> Give it a go in real-time
-<a href="https://shahramshakiba.github.io/HomeSmart-Landing-Page/" target="_blank">
-    HomeSmart-Landing-Page
-</a> <br/><br/><br/>
 
+<!----------------------------------------- try it live ---------------------------------------->
+ ### Give It A Go In Real-Time and Give Me A Star <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Dizzy.webp" alt="Dizzy" width="35" />
+ <a href="https://shahramshakiba.github.io/HomeSmart-Landing-Page/" target="_blank">
+   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Light%20Bulb.webp" alt="Light Bulb" width="25" height="25" /> HomeSmart-Landing-Page Demo
+</a> <br/><br/>
+
+
+<!------------------------------------------- Video ------------------------------------------->
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Clapper%20Board.webp" alt="Clapper Board" width="55" />
 https://github.com/ShahramShakiba/HomeSmart-Landing-Page/assets/110089830/64db2439-3bb3-45b0-89c6-c57798cdb7b2
 
 <br/><br/>
 
+
+<!------------------------------------------- Social-Media ------------------------------------------->
    ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Telephone.webp" alt="Telephone" width="55"  /> You can find me around the Web
  <a href="https://www.linkedin.com/in/shahramshakiba/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
