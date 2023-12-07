@@ -11,11 +11,13 @@ The main emphasis of this project is on designing a ` clean `  and  ` uncomplica
   This makes it easier for users to access the site from wherever they are, increasing the reach of the site.
    <br/><br/>
 
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> &nbsp; Demo
+<a href="https://shahramshakiba.github.io/HomeSmart-Landing-Page/" target="_blank">
+    HomeSmart-Landing-Page
+</a> <br/><br/><br/>
 
 ### 🎬
 https://github.com/ShahramShakiba/HomeSmart-Landing-Page/assets/110089830/64db2439-3bb3-45b0-89c6-c57798cdb7b2
-
-
 
 <br/>
 
